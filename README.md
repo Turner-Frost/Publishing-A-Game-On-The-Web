@@ -99,6 +99,41 @@ Once the game has, finally, built it will open in a browser. You may see some me
 
 Now, some practice. We'll make a clone of your GitHub Pages site and add your game to it. You should be able to make the clone.
 
+After making the clone:
+
+1. Move the folder holding the build of your game into your site.
+1. Check to see what has changed with 'git status`. The result will look something like this:
+
+    ```bash
+    On branch master
+    Your branch is up-to-date with 'origin/master'.
+
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+
+            prototypes/Lander/
+
+    nothing added to commit but untracked files present (use "git add" to track)
+    ```
+ 1. Add the new files to Git:
+ 
+     ```bash
+     git add <folder holding your game build>
+     ```
+     
+     You will probably see messages like this:
+     
+     ```bash
+     warning: LF will be replaced by CRLF in prototypes/Lander/Build/Build.json.
+     The file will have its original line endings in your working directory.
+     warning: LF will be replaced by CRLF in prototypes/Lander/Build/UnityLoader.js.
+     The file will have its original line endings in your working directory.
+     warning: LF will be replaced by CRLF in prototypes/Lander/TemplateData/UnityProgress.js.
+     The file will have its original line endings in your working directory.
+     ```
+
+    
+
 ### Publishing the updated site – and your game
 
 After making the changes, push them to your GitHub Pages repository, then test.
