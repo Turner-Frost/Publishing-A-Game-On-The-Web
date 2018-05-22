@@ -32,9 +32,9 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
 1. Then, on your computer, **find the `Git Bash` command and launch it.** Git Bash is a Windows version of the Unix shell (command interperter) Bash – it is very similar to the Windows command prompt, the biggest difference that you are likely to notice is that the path seperator is the forward slash (/) instead of the backslash (\\).
 1. Then, **c**hange **d**irectories to your class folder by typing:
 
-  ```bash
-  cd /u/<the name of your game design folder>
-  ```
+    ```bash
+    cd /u/<the name of your game design folder>
+    ```
 
 [fork]: <https://guides.github.com/activities/forking/>
 
