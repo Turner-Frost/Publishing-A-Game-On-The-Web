@@ -65,7 +65,21 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
 
 ### Configuring Unity to build a game to deploy on the web
 
-### Building the game
+Now we are going to select one of the games in the PlaygroundProject and build a version to deploy on the web:
+
+1. Launch Unity.
+1. Open the folder you just cloned.
+1. Let Unity do it's thing, then
+1. Select a game to build.
+
+That should all have been pretty familiar. Now we're going to bulid a web version:
+
+1. Under the Unity File menu choose Build Settings... (File > Build Settings...).
+1. Below the Scenes box click on the Add Open Scenes button.
+1. In the Platform section choose WebGL (the orange icon with a 5 in the design).
+1. Click the Build & Run button.
+1. Select a location and name for the game build.
+1. Wait, and wait.
 
 ### Adding the game to your GitHub Pages wedsite
 
