@@ -93,7 +93,7 @@ Once the game has, finally, built it will open in a browser. You may see some me
    git add <changed files that you want to commit>
    git commit -m "Build and test for web."
    git push
-   '''
+   ```
 
 ### Adding the game to your GitHub Pages wedsite
 
