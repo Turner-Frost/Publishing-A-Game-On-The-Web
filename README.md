@@ -81,6 +81,24 @@ That should all have been pretty familiar. Now we're going to bulid a web versio
 1. Select a location and name for the game build.
 1. Wait, and wait.
 
+Once the game has, finally, built it will open in a browser. You may see some messages about allowing network connections. It is OK to allow them.
+
+1. Finally check what has changed:
+
+    ```bash
+    git status
+    ```
+1. Then push your changes back to GitHub:
+   ```bash
+   git add <changed files that you want to commit>
+   git commit -m "Build and test for web."
+   git push
+   '''
+
 ### Adding the game to your GitHub Pages wedsite
 
+Now, some practice. We'll make a clone of your GitHub Pages site and add your game to it. You should be able to make the clone.
+
 ### Publishing the updated site – and your game
+
+After making the changes, push them to your GitHub Pages repository, then test.
